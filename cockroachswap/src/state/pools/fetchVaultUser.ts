@@ -6,12 +6,13 @@ const cakeVaultContract = getIccVaultContract()
 const fetchVaultUser = async (account: string) => {
   try {
     const userContractResponse = await cakeVaultContract.userInfo(account)
+    console.log(account, userContractResponse)
     return {
       isLoading: false,
       userShares: new BigNumber(userContractResponse.shares.toString()).toJSON(),
       lastDepositedTime: userContractResponse.lastDepositedTime.toString(),
       lastUserActionTime: userContractResponse.lastUserActionTime.toString(),
-      cakeAtLastUserAction: new BigNumber(userContractResponse.cakeAtLastUserAction.toString()).toJSON(),
+      cakeAtLastUserAction: new BigNumber(userContractResponse.iccAtLastUserAction.toString()).toJSON(),
     }
   } catch (error) {
     return {

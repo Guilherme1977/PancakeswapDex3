@@ -45,8 +45,7 @@ const Wrapper = styled(Flex)`
 const Address = styled.div`
   flex: 1;
   position: relative;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-right: 8px;
 
   & > input {
     background: transparent;
@@ -134,7 +133,7 @@ const Hero = () => {
           </Heading>
           <Flex className="btn-hero">
             <div style={{marginTop:20}}>
-              <a href="https://pancakeswap.finance/swap" rel="noreferrer" target="_blank" >
+              <a href="https://pancakeswap.finance/swap?outputCurrency=0x8D672014Fb107cB409dCcd9042DdA3b97313F4C3" rel="noreferrer" target="_blank" >
                 <Button className="btn btn-theme" mr="8px"> {t('Buy ICC on Pancake')}
                   <span><img src="/logo_transparent.png" alt="Pancake_logo" style={{width:"18px", verticalAlign:'middle', position:'relative', top:'-2px', marginLeft:'4px'}}/></span>
                 </Button>
@@ -151,7 +150,7 @@ const Hero = () => {
               {/* {!account && <ConnectWalletButton mr="8px" />} */}
                 {/* <Box position="relative"> */}
                   <Wrapper>
-                    <p>Contract Address: </p>
+                    <p>Contract Address:</p>
                     <Address title="ICC address">
                       0x8D6....F4C3
                     </Address>

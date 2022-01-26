@@ -29,12 +29,15 @@ export default function OurPartner() {
     { src: "/images/partnerslogos/coingecko.png", title: "coin gecko", url: "https://www.coingecko.com/en/coins/intergalactic-cockroach" },
     { src: "/images/partnerslogos/dextools.png", title: "dex tools", url: "https://www.dextools.io/app/bsc/pair-explorer/0x4c8bf76ab3bb40b91b4a3fbe1c0cab070903d0a3" },
     { src: "/images/partnerslogos/PanckeSwap.png", title: "Pancke Swap", url: "https://pancakeswap.finance/swap?outputCurrency=0x8d672014fb107cb409dccd9042dda3b97313f4c3" },
+    { src: "/images/partnerslogos/coinmarketcap.png", title: "coin market cap", url: "https://coinmarketcap.com/currencies/intergalactic-cockroach/" },
     { src: "/images/partnerslogos/nomics.png", title: "nomics", url: "https://nomics.com/assets/icc2-intergalactic-cockroach" },
     { src: "/images/partnerslogos/coihunt.png", title: "coihunt", url: "https://coinhunt.cc/coin/1818279544" },
     { src: "/images/partnerslogos/coinscope.png", title: "coinscope", url: "https://www.coinscope.co/coin/icc?" },
+    { src: "/images/partnerslogos/coinmarketcap.png", title: "coin market cap", url: "https://coinmarketcap.com/currencies/intergalactic-cockroach/" },
     { src: "/images/partnerslogos/Coinhunters.png", title: "Coinhunters", url: "https://coinhunters.cc/tokens/IntergalacticCockroach" },
     { src: "/images/partnerslogos/coinmooner.png", title: "coinmooner", url: "https://coinmooner.com/coin/9681%F0%9F%9A%80" },
     { src: "/images/partnerslogos/coinsniper.png", title: "coinsniper", url: "https://coinsniper.net/coin/20540" },
+    { src: "/images/partnerslogos/coinmarketcap.png", title: "coin market cap", url: "https://coinmarketcap.com/currencies/intergalactic-cockroach/" },
     { src: "/images/partnerslogos/coinvote.png", title: "coinvote", url: "https://coinvote.cc/coin/Intergalactic-Cockroach" },
     { src: "/images/partnerslogos/Gemfinder.png", title: "Gemfinder", url: "https://gemfinder.cc/gem/6297" },
     { src: "/images/partnerslogos/poocoin.png", title: "poocoin", url: "https://poocoin.app/tokens/0x8d672014fb107cb409dccd9042dda3b97313f4c3" },
@@ -57,7 +60,7 @@ export default function OurPartner() {
     <div style={{marginTop: "30px"}}>
       <div className="text-center">
         <h1 className="title text-uppercase">
-          Our <span>Partner</span>
+          Our <span>Partners</span>
         </h1>
       </div>
       <Carousel

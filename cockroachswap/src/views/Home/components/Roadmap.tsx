@@ -168,16 +168,24 @@ export default function Roadmap() {
                             <h2 className="road-title">Q1 2022</h2>
                             <ul className="list-roadmap">
                                 <li>
-                                    <span className="moving-icon-home">
-                                        <i className="fa fa-spinner fa-spin "> </i>
-                                    </span>
-                                    <p className="mt-5">1000 Holders</p>
+                                    <img src={Markicon} className="img-fluid" alt="Markicon" />
+                                    <p className="mt-5 pl-60">1000 Holders</p>
                                 </li>
                                 <li>
-                                    <span className="moving-icon-home">
-                                        <i className="fa fa-spinner fa-spin "> </i>
-                                    </span>
-                                    <p className="mt-5">Listing Coingecko & Coin market cap</p>
+                                    <img src={Markicon} className="img-fluid" alt="Markicon" />
+                                    <p className="mt-5 pl-60">Listing Coingecko & Coin market cap</p>
+                                </li>
+                                <li>
+                                    <img src={Markicon} className="img-fluid" alt="Markicon" />
+                                    <p className="mt-5 pl-60">Farms</p>
+                                </li>
+                                <li>
+                                    <img src={Markicon} className="img-fluid" alt="Markicon" />
+                                    <p className="mt-5 pl-60">Pools</p>
+                                </li>
+                                <li>
+                                    <img src={Markicon} className="img-fluid" alt="Markicon" />
+                                    <p className="mt-5 pl-60">Cockroach Swap & Exchange</p>
                                 </li>
                                 <li>
                                     <span className="moving-icon-home">
@@ -207,12 +215,7 @@ export default function Roadmap() {
                                                 </span>
                                                 <p className="mt-5">Predictions Lottery ICC</p>
                                             </li>
-                                            <li>
-                                                <span className="moving-icon-home">
-                                                    <i className="fa fa-spinner fa-spin "> </i>
-                                                </span>
-                                                <p className="mt-5">Cockroach Swap & Exchange</p>
-                                            </li>
+                                            
                                             <li>
                                                 <span className="moving-icon-home">
                                                     <i className="fa fa-spinner fa-spin "> </i>

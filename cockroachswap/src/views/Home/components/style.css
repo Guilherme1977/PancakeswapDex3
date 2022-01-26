@@ -2803,3 +2803,13 @@ ul.howPlay-play li p {
 .react-multiple-carousel__arrow--right {
     right: -17px !important;
 }
+
+.pl-60 {
+    padding-left: 0px!important;
+}
+
+@media (max-width: 768px) { 
+    .pl-60 {
+        padding-left: 60px!important;
+    }
+}
